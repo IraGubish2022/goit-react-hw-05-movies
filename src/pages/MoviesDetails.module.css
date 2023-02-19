@@ -1,0 +1,56 @@
+.detailsBox {
+  display: flex;
+  padding: 10px 20px 20px;
+}
+.imgBox {
+  margin-right: 35px;
+  flex-direction: column;
+}
+.detailsBtn {
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 30px;
+  text-decoration: none;
+  color: rgb(238, 9, 9);
+}
+.detailsImg {
+  margin-top: 15px;
+  max-width: 300px;
+  display: block;
+  border-radius: 5px;
+  border: 2px solid rgb(119, 21, 113);
+  box-shadow: 0px 5px 10px 0px rgb(129 7 177);
+}
+.detailsInfo {
+  display: flex;
+  flex-direction: column;
+  margin-top: 53px;
+}
+.detailsTitle {
+  font-size: 30px;
+  font-style: italic;
+  text-decoration: underline;
+  margin-bottom: 10px;
+  color: rgb(148, 10, 203);
+}
+.detailsText {
+  font-size: 18px;
+  font-style: italic;
+  color: rgb(22, 21, 21);
+}
+.detailsText:not(:last-of-type) {
+  margin-bottom: 20px;
+}
+.boxLink {
+  padding: 10px 20px 20px;
+}
+.infoLink {
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 700;
+  color: rgb(170, 15, 184);
+  text-decoration: underline;
+}
+.infoLink:not(:last-of-type) {
+  margin-right: 15px;
+}

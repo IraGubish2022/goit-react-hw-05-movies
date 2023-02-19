@@ -1,0 +1,30 @@
+.movieList {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 15px 15px;
+}
+.movieLink {
+  width: 100%;
+  flex-basis: calc(100% / 4 - 26px);
+  padding: 5px;
+  color: rgb(129, 7, 177);
+  background: #fbf9fa3f;
+  font-size: 18px;
+  font-style: italic;
+  border-radius: 5px;
+  text-decoration: none;
+  box-shadow: 0px 5px 10px 0px rgb(129, 7, 177);
+  border: 2px solid rgb(241, 10, 226);
+}
+.movieImg {
+  width: 100%;
+}
+.movieTitle {
+  margin-bottom: 30px;
+  margin-top: 30px;
+  font-size: 15px;
+  text-align: center;
+}
